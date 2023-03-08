@@ -1,0 +1,82 @@
+i{
+    color: #F69494
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+
+.container{
+    display: flex;
+    heigth: 100vh;
+}
+
+.sidemenu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.portrait{
+    border-radius: 120px;
+    max-width: 11rem;
+    border: solid;
+    border-color: #317A9D;
+    width: 100%;
+    height: auto;
+}
+
+.infoContainer{
+    padding: 20px;
+    margin-left: 5px;
+    border-left: solid;
+    border-width: thin;
+    border-color: aqua;
+}
+
+.skillCard{
+    padding: 5px 30px;
+    background: #99B3C5;
+    border-radius: 10px;
+    text-align: center;
+    margin: 5px;
+    color: #FFFFFF;
+}
+
+.nameStyle{
+    font-size: 2rem;
+    font-weight: 400;
+    color: #34678C;
+    font-family: 'Roboto', sans-serif;
+}
+
+.titleStyle{
+    margin: 10px 0px;
+    color: #F69494;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contactInfo{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+    padding: 0px 10rem;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+}
+
+svg{
+    margin-right: 5px;
+    width: 25px;
+    height: 25px;
+    color: #F26464;
+}
